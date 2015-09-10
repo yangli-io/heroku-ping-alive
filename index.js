@@ -20,8 +20,8 @@ module.exports = function(options){
 	if (typeof options === 'string'){
 		appName = options;
 	} else if (typeof options === 'object'){
-		time = object.time || time;
-		appName = object.name || appName;
+		time = option.time || time;
+		appName = option.name || appName;
 	}
 	clearTimeout(timeout);
 	ping();
