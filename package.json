@@ -1,0 +1,26 @@
+{
+  "name": "heroku-ping-alive",
+  "version": "1.0.0",
+  "description": "Add this to your heroku node servers to prevent it from shutting down",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yangli1990/heroku-ping-alive.git"
+  },
+  "keywords": [
+    "heroku",
+    "ping"
+  ],
+  "author": "Yang Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangli1990/heroku-ping-alive/issues"
+  },
+  "homepage": "https://github.com/yangli1990/heroku-ping-alive",
+  "dependencies": {
+    "request": "^2.61.0"
+  }
+}
