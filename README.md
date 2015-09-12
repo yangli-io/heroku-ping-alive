@@ -13,15 +13,16 @@ require('heroku-ping-alive');
 
 ##Pass in name as a variable
 ```
-var herokuPing = require('heroku-ping-alive')('heroku-name');
+require('heroku-ping-alive')('heroku-name');
 ```
 
 ##Other parameters
 You dont need to, but you can choose the time between pings
 ```
-var herokuPing = require('heroku-ping-alive')({
+require('heroku-ping-alive')({
 	time: 1000 * 60 * 30 //In milliseconds, default 30minutes,
 	name: 'heroku-name'
+	route: '/home'  //The route you would like this app to ping
 });
 ```
 
